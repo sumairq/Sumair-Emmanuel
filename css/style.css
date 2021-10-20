@@ -16,6 +16,30 @@
 
 }
 
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: xx-large;
+    height: 150px;
+}
+
+#footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 25px
+
+}
+ 
+footer {
+    min-height: 250px;
+    background-color: rgb(35, 48, 35);
+    color: whitesmoke
+}
+
 #welcome-section {
     display: flex;
     justify-content: center;
@@ -35,24 +59,32 @@
     padding: 50px;
 }
 
+#projects-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 60px;
+}
 .flex-container .project-tile {
-    background-color: rgb(201, 201, 231);
+    background-color: rgb(57, 58, 57);;;
     border-radius: 10px;
     box-shadow: 1px 10px 20px gray;
     width: 300px;
     height: 400;
-
+    color: whitesmoke;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
   }
 
-  .flex-container .project-tile > h4 {
-      color: rgb(57, 58, 57);
-  }
+
 
    .flex-container .project-tile > a {
       font-size: large;
+      color: whitesmoke;
+      text-decoration: none;
+      font-style: unset;
+
       
   }
 
